@@ -1,2 +1,6 @@
 # ShopInJava
-I've created a project using Java, OOP concepts(polimorphism, inheritance. abstract, interfaces, exceptions, threads etc.), and design patterns. 
+I've created this project using Java, OOP concepts(polimorphism, inheritance. abstract, interfaces, exceptions, threads etc.), and design patterns to demonstrate my skills using this this programming language as well as the OOP concepts, design-patterns and my knowledge of anti-patterns.
+
+This project it's a structure of "SHOP". The project contains: Interface "Shop Interface" with abstract methods that are concretised in the "Shop" class. Interface article with 3 subclasses (3 types of articles): Jeans, TShirt and Skirt(those classes has particular methods). Class "Customer" used for creating a "customer" instance (this class is also encapsulated and has particular methods). Two classes for exceptions handling. ThreadForTime class that implements Runnable, used a quick demonstration of my knowledge of threads(ThreadForTime does not inherit Thread because of SingleResponsabilityRule so I use Runnable. I know how to use Callable too and ThreadPool, Executor service, Cyclic Barrier, Parralel Streams, Semaphore etc.). TestShop class has the main method for a demonstration of this arhitecture.
+
+For more details about each method take a look in the .Java files from this project. I've used concepts like S.O.L.I.D, K.I.S.S and D.R.Y so the code should be easy to understand.
